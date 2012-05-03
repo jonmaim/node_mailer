@@ -6,7 +6,7 @@
 
      curl http://npmjs.org/install.sh | sh
 
-### Installing say.js
+### Installing node_mailer
 
      npm install mailer
 
@@ -37,7 +37,7 @@
           username : "my_username",        // username
           password : "my_password"         // password
         },
-        function(err, result){
+        function(err, result){ 	 	   // `result` will be true if sending is successful
           if(err){ console.log(err); }
         });
       }
